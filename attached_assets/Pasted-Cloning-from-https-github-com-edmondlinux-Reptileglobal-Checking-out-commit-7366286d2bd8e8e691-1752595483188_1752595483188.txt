@@ -1,0 +1,59 @@
+Cloning from https://github.com/edmondlinux/Reptileglobal
+==> Checking out commit 7366286d2bd8e8e6914d2e9dbf76696ea22c45d5 in branch main
+==> Downloading cache...
+==> Transferred 375MB in 8s. Extraction took 6s.
+==> Using Node.js version 22.16.0 (default)
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Using Bun version 1.1.0 (default)
+==> Docs on specifying a Bun version: https://render.com/docs/bun-version
+==> Running build command 'npm run build'...
+> e-commerce-store@1.0.0 build
+> npm install && npm install --prefix frontend && npm run build --prefix frontend
+up to date, audited 316 packages in 796ms
+39 packages are looking for funding
+  run `npm fund` for details
+1 low severity vulnerability
+To address all issues, run:
+  npm audit fix
+Run `npm audit` for details.
+added 450 packages, and audited 451 packages in 4s
+139 packages are looking for funding
+  run `npm fund` for details
+2 moderate severity vulnerabilities
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+> frontend@0.0.0 build
+> vite build
+vite v5.4.19 building for production...
+transforming...
+✓ 3220 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                              3.44 kB │ gzip:   1.08 kB
+dist/assets/index-CWi-q3aa.css              37.42 kB │ gzip:   6.49 kB
+dist/assets/purify.es-CQJ0hv7W.js           21.82 kB │ gzip:   8.58 kB
+dist/assets/index.es-D9sVnioy.js           150.42 kB │ gzip:  51.39 kB
+dist/assets/html2canvas.esm-CBrSDip1.js    201.42 kB │ gzip:  48.03 kB
+dist/assets/index-CFw4tvSt.js            1,825.76 kB │ gzip: 505.63 kB
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 9.29s
+==> Uploading build...
+==> Uploaded in 6.1s. Compression took 4.4s
+==> Build successful 🎉
+==> Deploying...
+==> Running 'npm start'
+> e-commerce-store@1.0.0 start
+> node backend/server.js
+Server is running on http://localhost:10000
+==> Your service is live 🎉
+==> 
+==> ///////////////////////////////////////////////////////////
+==> 
+==> Available at your primary URL https://reptileglobal-ak6p.onrender.com
+==> 
+==> ///////////////////////////////////////////////////////////
+MongoDB connected: ac-1vzxxwo-shard-00-02.xfralni.mongodb.net
