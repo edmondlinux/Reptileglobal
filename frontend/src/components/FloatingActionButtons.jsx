@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const FloatingActionButtons = () => {
   const handleKakaoTalk = () => {
     // Open KakaoTalk web or app
-    window.open('https://open.kakao.com/me/reptileglobal', '_blank');
+    window.open('http://qr.kakao.com/talk/JLVL4IJZepympaD.sVZIFwlNcS8-', '_blank');
   };
 
   const handleEmailSupport = () => {
