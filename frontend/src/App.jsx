@@ -1,14 +1,10 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
-import { useEffect } from "react";
 
 import HomePage from "./pages/HomePage";
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import AdminPage from "./pages/AdminPage";
-import Navbar from "./components/Navbar";
-import { useUserStore } from "./stores/useUserStore";
-import LoadingSpinner from "./components/LoadingSpinner";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import TeamPage from "./pages/TeamPage";
@@ -16,7 +12,12 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import TrackPage from "./pages/TrackPage";
 import ShipmentsPage from "./pages/ShipmentsPage";
 
-import "./i18n";
+import Navbar from "./components/Navbar";
+import LoadingSpinner from "./components/LoadingSpinner";
+import FloatingActionButtons from "./components/FloatingActionButtons";
+import { useUserStore } from "./stores/useUserStore";
+import { useEffect } from "react";
+import { useTranslation } from "./hooks/useTranslation";
 
 function App() {
 	const { user, checkAuth, checkingAuth } = useUserStore();
@@ -54,6 +55,9 @@ function App() {
 						element={user?.role === "admin" ? <AdminPage /> : <Navigate to='/' />}
 					/>
 				</Routes>
+
+					<FloatingActionButtons />
+				
 			</div>
 			<Toaster />
 		</div>
