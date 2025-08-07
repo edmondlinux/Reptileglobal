@@ -1,5 +1,5 @@
 
-import { BarChart, Plus, Package, List, Search, Truck } from "lucide-react";
+import { BarChart, Plus, Package, List, Search, Truck, Key } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import AnalyticsTab from "../components/AnalyticsTab";
 import CreateShipmentForm from "../components/CreateShipmentForm";
 import ShipmentsList from "../components/ShipmentsList";
+import KYCMagicLinkGenerator from "../components/KYCMagicLinkGenerator";
 import { useShipmentStore } from "../stores/useShipmentStore";
 
 
@@ -66,6 +67,8 @@ const AdminPage = () => {
 const SearchEditShipments = () => {
 	const [searchTerm, setSearchTerm] = useState("");
 	const [selectedShipment, setSelectedShipment] = useState(null);
+	const [showKYCModal, setShowKYCModal] = useState(false);
+	const [selectedShipmentForKYC, setSelectedShipmentForKYC] = useState(null);
 	const { shipments, trackShipment, updateShipmentStatus } = useShipmentStore();
 
 	const filteredShipments = shipments.filter(shipment => 
@@ -81,6 +84,11 @@ const SearchEditShipments = () => {
 		} catch (error) {
 			console.error("Failed to update shipment:", error);
 		}
+	};
+
+	const handleGenerateKYCLink = (shipment) => {
+		setSelectedShipmentForKYC(shipment);
+		setShowKYCModal(true);
 	};
 
 	return (
@@ -111,12 +119,21 @@ const SearchEditShipments = () => {
 											<p className="text-sm text-gray-300">{shipment.sender.name} → {shipment.recipient.name}</p>
 											<p className="text-sm text-gray-400 capitalize">{shipment.status.replace('_', ' ')}</p>
 										</div>
-										<button
-											onClick={() => setSelectedShipment(shipment)}
-											className="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg text-sm transition duration-300"
-										>
-											Edit
-										</button>
+										<div className="flex space-x-2">
+											<button
+												onClick={() => handleGenerateKYCLink(shipment)}
+												className="bg-blue-600 hover:bg-blue-700 px-3 py-2 rounded-lg text-sm transition duration-300 flex items-center"
+												title="Generate KYC Magic Link"
+											>
+												<Key className="w-4 h-4" />
+											</button>
+											<button
+												onClick={() => setSelectedShipment(shipment)}
+												className="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg text-sm transition duration-300"
+											>
+												Edit
+											</button>
+										</div>
 									</div>
 								</div>
 							))}
@@ -134,6 +151,16 @@ const SearchEditShipments = () => {
 						onCancel={() => setSelectedShipment(null)}
 					/>
 				</div>
+			)}
+
+			{showKYCModal && selectedShipmentForKYC && (
+				<KYCMagicLinkGenerator
+					shipment={selectedShipmentForKYC}
+					onClose={() => {
+						setShowKYCModal(false);
+						setSelectedShipmentForKYC(null);
+					}}
+				/>
 			)}
 		</div>
 	);

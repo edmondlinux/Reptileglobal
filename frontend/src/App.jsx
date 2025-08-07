@@ -16,6 +16,7 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import TrackPage from "./pages/TrackPage";
 import ShipmentsPage from "./pages/ShipmentsPage";
 import FloatingActionButtons from "./components/FloatingActionButtons";
+import KYCVerificationPage from "./pages/KYCVerificationPage";
 
 import "./i18n";
 
@@ -47,6 +48,7 @@ function App() {
 					<Route path='/testimonials' element={<TestimonialsPage />} />
 					<Route path='/contact' element={<ContactPage />} />
 					<Route path='/track' element={<TrackPage />} />
+					<Route path="/kyc-verification/:token" element={<KYCVerificationPage />} />
 					<Route path='/shipments' element={<ShipmentsPage />} />
 					<Route path='/signup' element={!user ? <SignUpPage /> : <Navigate to='/' />} />
 					<Route path='/login' element={!user ? <LoginPage /> : <Navigate to='/' />} />
