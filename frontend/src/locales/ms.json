@@ -1,0 +1,387 @@
+
+{
+  "nav": {
+    "home": "Laman Utama",
+    "about": "Tentang Kami",
+    "team": "Pasukan",
+    "testimonials": "Testimoni",
+    "contact": "Hubungi Kami",
+    "track": "Jejak",
+    "myShipments": "Penghantaran Saya",
+    "dashboard": "Papan Pemuka",
+    "logOut": "Log Keluar",
+    "signUp": "Daftar",
+    "login": "Log Masuk",
+    "language": "Bahasa"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "ms": "Bahasa Malaysia",
+    "ko": "한국어",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  },
+  "common": {
+    "loading": "Memuatkan...",
+    "error": "Ralat",
+    "success": "Berjaya",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Padam",
+    "edit": "Sunting",
+    "submit": "Hantar",
+    "close": "Tutup"
+  },
+  "auth": {
+    "login": {
+      "title": "Log masuk ke akaun anda",
+      "emailLabel": "Alamat emel",
+      "emailPlaceholder": "anda@example.com",
+      "passwordLabel": "Kata laluan",
+      "passwordPlaceholder": "••••••••",
+      "loginButton": "Log Masuk",
+      "notMember": "Bukan ahli?",
+      "signUpNow": "Daftar sekarang"
+    },
+    "signup": {
+      "title": "Cipta akaun anda",
+      "nameLabel": "Nama penuh",
+      "namePlaceholder": "Ahmad Ali",
+      "emailLabel": "Alamat emel",
+      "emailPlaceholder": "anda@example.com",
+      "passwordLabel": "Kata laluan",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Sahkan Kata Laluan",
+      "confirmPasswordPlaceholder": "••••••••",
+      "signUpButton": "Daftar",
+      "alreadyMember": "Sudah mempunyai akaun?",
+      "loginHere": "Log masuk di sini"
+    }
+  },
+  "hero": {
+    "title": "Reptile Global",
+    "subtitle": "",
+    "description": "Kami berdedikasi untuk membawa reptilia anda ke tempat yang diperlukan dengan selamat dan selesa. Bukan sahaja merentasi Amerika Syarikat, tetapi juga di seluruh Eropah dan Asia. Dengan pengangkutan berkawal iklim kami, reptilia anda boleh mengembara tanpa tekanan ke tempat seperti China, Malaysia, Korea, dan tempat lain.",
+    "getQuote": "Dapatkan Sebut Harga",
+    "trackShipment": "Jejak Penghantaran",
+    "enterTracking": "Masukkan nombor penjejakan...",
+    "trackNow": "Jejak Sekarang",
+    "tracking": "Menjejak penghantaran anda..."
+  },
+  "partners": {
+    "title": "Dipercayai oleh Pemimpin Industri",
+    "description": "Kami bekerjasama dengan syarikat logistik terkemuka dunia untuk menyediakan penyelesaian penghantaran menyeluruh dan liputan global kepada anda.",
+    "morePartners": "Dan banyak lagi rakan kongsi yang dipercayai di seluruh dunia"
+  },
+  "services": {
+    "title": "Perkhidmatan Kami",
+    "description": "Penyelesaian logistik menyeluruh yang disesuaikan untuk memenuhi keperluan perniagaan anda",
+    "climateTransport": {
+      "title": "Pengangkutan Berkawal Iklim",
+      "description": "Kenderaan berkawal suhu dan kelembapan memastikan keadaan optimum untuk pengangkutan reptilia merentasi Eropah."
+    },
+    "europeAsia": {
+      "title": "Penghantaran Eropah ke Asia",
+      "description": "Penghantaran antarabangsa khusus ke China, Malaysia, Korea, dan negara Asia lain dengan dokumentasi lengkap."
+    },
+    "quarantine": {
+      "title": "Kemudahan Kuarantin",
+      "description": "Kemudahan kuarantin dan pegangan yang diperakui memenuhi piawaian antarabangsa untuk kesihatan dan keselamatan reptilia."
+    },
+    "doorToDoor": {
+      "title": "Perkhidmatan Pintu ke Pintu",
+      "description": "Perkhidmatan pengambilan dan penghantaran lengkap dari pembiakbaka ke destinasi dengan pengendalian reptilia pakar."
+    },
+    "breederNetwork": {
+      "title": "Rangkaian Pembiakbaka",
+      "description": "Menghubungkan pembiakbaka reptilia Eropah dengan pasaran antarabangsa melalui rangkaian dipercayai kami."
+    },
+    "cites": {
+      "title": "Dokumentasi CITES",
+      "description": "Pengendalian permit CITES lengkap dan dokumentasi hidupan liar untuk perdagangan reptilia antarabangsa yang sah."
+    }
+  },
+  "features": {
+    "title": "Mengapa Memilih Kami",
+    "description": "Rasai perbezaan dengan keupayaan terdepan industri kami",
+    "express": {
+      "title": "Penghantaran Ekspres Reptilia",
+      "description": "Penghantaran keutamaan dengan masa transit minimum untuk kebajikan reptilia"
+    },
+    "tracking": {
+      "title": "Penjejakan Haiwan Hidup",
+      "description": "Pemantauan masa nyata suhu, kelembapan, dan lokasi"
+    },
+    "insurance": {
+      "title": "Insurans Reptilia",
+      "description": "Perlindungan menyeluruh dan protokol pengendalian reptilia pakar"
+    },
+    "network": {
+      "title": "Rangkaian Eropah-Asia",
+      "description": "Laluan khusus meliputi Eropah dan pasaran utama Asia"
+    }
+  },
+  "process": {
+    "title": "Bagaimana Ia Berfungsi",
+    "description": "Langkah mudah untuk memulakan pergerakan penghantaran anda",
+    "consultation": {
+      "title": "Konsultasi",
+      "description": "Hubungi kami untuk konsultasi penghantaran reptilia dan keperluan CITES"
+    },
+    "pickup": {
+      "title": "Pengambilan Selamat",
+      "description": "Pengumpulan pakar dengan bekas yang sesuai dan persediaan iklim"
+    },
+    "transport": {
+      "title": "Pengangkutan Iklim",
+      "description": "Pengangkutan berkawal suhu melalui rangkaian Eropah-Asia kami"
+    },
+    "delivery": {
+      "title": "Penghantaran Selamat",
+      "description": "Ketibaan sihat dengan dokumentasi lengkap dan sijil kesihatan"
+    }
+  },
+  "testimonials": {
+    "title": "Kata Pelanggan Kami",
+    "description": "Dipercayai oleh perniagaan di seluruh dunia",
+    "marco": {
+      "company": "Pembiakbaka Reptilia Eropah",
+      "quote": "Pengangkut Reptilia EU telah merevolusikan cara kami menghantar ke Asia. Setiap haiwan tiba dengan sihat dan tanpa tekanan. Perkhidmatan yang benar-benar profesional."
+    },
+    "lisa": {
+      "company": "Import Eksotik Asia",
+      "quote": "Penghantaran yang boleh dipercayai dari Eropah ke China dengan dokumentasi yang sempurna. Sistem kawalan iklim mereka terbaik."
+    },
+    "johan": {
+      "company": "Reptilia Nordic",
+      "quote": "Pengendalian profesional dan penghantaran pantas ke Malaysia. Pengangkut Reptilia EU memahami keperluan pengangkutan haiwan hidup."
+    },
+    "sophie": {
+      "company": "Ladang Gecko Perancis",
+      "quote": "Perkhidmatan cemerlang ke Korea dan pasaran Asia lain. Sokongan CITES lengkap dan ketibaan yang sihat setiap kali."
+    }
+  },
+  "showcase": {
+    "title": "Operasi Reptilia Kami",
+    "description": "Kemudahan khusus dan pengendalian pakar untuk pengangkutan reptilia hidup",
+    "handlers": "Pengendali Reptilia Pakar",
+    "vehicles": "Kenderaan Berkawal Iklim",
+    "facilities": "Kemudahan Kuarantin",
+    "distribution": "Rangkaian Pengedaran Asia"
+  },
+  "about": {
+    "title": "Tentang Reptile Global",
+    "description": "Dengan lebih 5 tahun pengalaman khusus dalam pengangkutan reptilia, kami telah menjadi pakar terkemuka dalam penghantaran reptilia yang selamat dan sah di seluruh dunia. Rangkaian kami menghubungkan pembiakbaka Eropah dengan pasaran di China, Malaysia, Korea, dan seluruh Asia.",
+    "compliance": "Kami diperakui oleh pihak berkuasa CITES dan mengekalkan piawaian tertinggi untuk kebajikan haiwan hidup dan pematuhan antarabangsa.",
+    "experience": "Tahun Pengalaman",
+    "countries": "Negara Asia",
+    "shipped": "Reptilia Dihantar",
+    "certified": "Diperakui CITES",
+    "certifiedDesc": "Permit perdagangan hidupan liar rasmi",
+    "climate": "Berkawal Iklim",
+    "climateDesc": "Suhu dan kelembapan optimum",
+    "monitoring": "Pemantauan 24/7",
+    "monitoringDesc": "Penjejakan dan penjagaan haiwan hidup",
+    "rates": "Kadar Kompetitif",
+    "ratesDesc": "Harga terbaik untuk penghantaran reptilia"
+  },
+  "cta": {
+    "title": "Bersedia untuk Menghantar Reptilia Anda?",
+    "description": "Berhubung dengan pasaran Asia melalui pakar pengangkutan reptilia terkemuka Eropah.",
+    "getQuote": "Dapatkan Sebut Harga Penghantaran",
+    "email": "emel: support@reptileglobal.site"
+  },
+  "contact": {
+    "hero": {
+      "title": "Hubungi Kami",
+      "subtitle": "Reptile Global",
+      "description": "Berhubung dengan pakar pengangkutan reptilia kami. Kami di sini untuk membantu menghantar reptilia anda dengan selamat ke pasaran Asia."
+    },
+    "form": {
+      "title": "Dapatkan Sebut Harga Penghantaran Reptilia",
+      "name": "Nama Penuh",
+      "email": "Alamat Emel",
+      "phone": "Nombor Telefon",
+      "company": "Syarikat/Ladang Pembiakbaka",
+      "subject": "Subjek",
+      "message": "Beritahu kami tentang reptilia, destinasi, dan keperluan penghantaran anda",
+      "serviceType": "Jenis Perkhidmatan",
+      "submit": "Dapatkan Sebut Harga Penghantaran Reptilia",
+      "sending": "Menghantar...",
+      "success": "Mesej berjaya dihantar! Pakar reptilia kami akan menghubungi anda dalam 24 jam.",
+      "error": "Gagal menghantar mesej. Sila cuba lagi atau hubungi kami secara langsung.",
+      "required": "*"
+    },
+    "serviceTypes": {
+      "general": "Pertanyaan Umum",
+      "shipping": "Sebut Harga Penghantaran Reptilia",
+      "tracking": "Jejak Penghantaran Saya",
+      "documentation": "Dokumentasi CITES",
+      "emergency": "Pengangkutan Kecemasan",
+      "partnership": "Perkongsian Pembiakbaka"
+    },
+    "info": {
+      "title": "Pakar Penghantaran Reptilia",
+      "description": "Bersedia untuk menghantar reptilia anda ke Asia? Pasukan pakar kami mengendalikan segala-galanya dari pengangkutan berkawal iklim hingga dokumentasi CITES untuk penghantaran antarabangsa yang selamat dan sah.",
+      "quickContact": "Hubungan Pantas",
+      "emergencyTitle": "Pengangkutan Reptilia Kecemasan",
+      "emergencyDesc": "Untuk penghantaran reptilia mendesak atau kecemasan pengangkutan",
+      "servicesTitle": "Perkhidmatan Reptilia Kami",
+      "climateTransport": "Pengangkutan Berkawal Iklim",
+      "citesDoc": "Dokumentasi CITES",
+      "europeAsiaShipping": "Penghantaran Eropah ke Asia",
+      "animalWelfare": "Keutamaan Kebajikan Haiwan"
+    },
+    "offices": {
+      "title": "Rangkaian Pengangkutan Reptilia Kami",
+      "description": "Lokasi strategik di seluruh Eropah dan Asia untuk penghantaran reptilia yang lancar",
+      "amsterdam": "Ibu Pejabat Eropah, Belanda",
+      "rome": "Hab Eropah Tengah, Rom",
+      "singapore": "Pusat Operasi Asia",
+      "hongkong": "Pejabat Pintu Masuk China"
+    },
+    "map": {
+      "title": "Ibu Pejabat Eropah",
+      "description": "Lawati kemudahan reptilia utama kami di Amsterdam",
+      "placeholder": "Peta Hab Pengangkutan Reptilia",
+      "coming": "Peta laluan penghantaran interaktif akan datang"
+    }
+  },
+  "gallery": {
+    "title": "Kerja Kami dalam Tindakan",
+    "description": "Terokai galeri kami yang mempamerkan pengangkutan reptilia, peralatan khusus, dan penghantaran berjaya di seluruh Eropah dan Asia",
+    "categories": {
+      "all": "Semua",
+      "reptiles": "Reptilia",
+      "equipment": "Peralatan",
+      "process": "Proses"
+    },
+    "images": {
+      "beardedTransport": "Pengangkutan naga berjanggut profesional dengan kawalan iklim",
+      "insulatedBox": "Kotak berpenebat baik untuk pengangkutan reptilia selamat",
+      "climateContainers": "Bekas penghantaran canggih dengan pemantauan suhu",
+      "transportSetup": "Kotak khusus untuk pengangkutan ular besar",
+      "documentation": "Dokumentasi CITES lengkap dan sijil kesihatan",
+      "packaging": "Pembungkusan profesional memastikan keselamatan haiwan semasa pengangkutan",
+      "lizardCollection": "Pelbagai spesies cicak disediakan untuk penghantaran antarabangsa",
+      "monitoring": "Pemantauan dan penjejakan masa nyata sepanjang perjalanan"
+    }
+  },
+  "contactForm": {
+    "title": "Berhubung",
+    "description": "Bersedia untuk menghantar? Hubungi kami untuk sebut harga peribadi",
+    "name": "Nama",
+    "email": "Emel",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "send": "Hantar Mesej",
+    "sending": "Menghantar...",
+    "success": "Mesej berjaya dihantar! Kami akan menghubungi anda tidak lama lagi.",
+    "error": "Gagal menghantar mesej. Sila cuba lagi.",
+    "contactInfo": "Maklumat Hubungan",
+    "phone": "Telefon",
+    "address": "Alamat",
+    "googleMap": "Peta Google"
+  },
+  "tracking": {
+    "title": "Jejak Penghantaran Anda",
+    "subtitle": "Masukkan nombor penjejakan anda untuk mendapat kemas kini masa nyata",
+    "currentLocation": "Lokasi Semasa",
+    "estimatedDelivery": "Anggaran Penghantaran",
+    "history": "Sejarah Penjejakan",
+    "notFound": "Tiada penghantaran dijumpai",
+    "checkNumber": "Sila semak nombor penjejakan anda dan cuba lagi",
+    "readyToTrack": "Sedia untuk jejak",
+    "enterNumber": "Masukkan nombor penjejakan di atas untuk bermula",
+    "trackingNumber": "Nombor Penjejakan",
+    "clearResults": "← Kosongkan Hasil",
+    "downloadPDF": "Muat Turun PDF",
+    "from": "Dari",
+    "to": "Kepada",
+    "packageDetails": "Butiran Pakej",
+    "serviceDetails": "Butiran Perkhidmatan"
+  },
+  "shipping": {
+    "from": "Dari",
+    "to": "Kepada",
+    "packageDetails": "Butiran Pakej",
+    "serviceDetails": "Butiran Perkhidmatan",
+    "description": "Keterangan",
+    "category": "Kategori",
+    "weight": "Berat",
+    "value": "Nilai",
+    "dimensions": "Dimensi",
+    "fragile": "Mudah Pecah",
+    "priority": "Keutamaan",
+    "cost": "Kos Penghantaran",
+    "date": "Tarikh Penghantaran",
+    "signatureRequired": "Tandatangan Diperlukan",
+    "specialInstructions": "Arahan Khas"
+  },
+  "team": {
+    "hero": {
+      "title": "Kenali",
+      "titleHighlight": "Pakar Reptilia Kami",
+      "description": "Profesional yang berdedikasi untuk pengangkutan reptilia yang selamat dan menghubungkan pembiakbaka Eropah dengan pasaran Asia."
+    },
+    "stats": {
+      "teamMembers": "Ahli Pasukan",
+      "countriesServed": "Negara Dilayani",
+      "averageExperience": "Tahun Pengalaman Purata",
+      "animalWelfareTrained": "Dilatih Kebajikan Haiwan"
+    },
+    "leadership": {
+      "title": "Pasukan Kepimpinan",
+      "description": "Pemimpin pakar dengan pengetahuan mendalam dalam penjagaan reptilia, logistik, dan perdagangan antarabangsa"
+    },
+    "departments": {
+      "title": "Pasukan Pakar Kami",
+      "description": "Jabatan pakar bekerjasama untuk memastikan pengangkutan reptilia yang selamat",
+      "animalCare": {
+        "title": "Pasukan Penjagaan Haiwan",
+        "description": "Pengendali reptilia khusus dan juruteknik veterinar memastikan kebajikan haiwan"
+      },
+      "logistics": {
+        "title": "Logistik & Pengangkutan",
+        "description": "Pakar pengangkutan berkawal iklim dan penyelaras laluan"
+      },
+      "climate": {
+        "title": "Teknologi Iklim",
+        "description": "Pakar pemantauan persekitaran dan sistem kawalan suhu"
+      }
+    },
+    "positions": {
+      "ceo": "Ketua Pegawai Eksekutif & Veterinar",
+      "operationsDirector": "Pengarah Operasi",
+      "asianMarketsDirector": "Pengarah Pasaran Asia",
+      "complianceOfficer": "Pegawai Pematuhan & Dokumentasi",
+      "leadVeterinarian": "Ketua Veterinar",
+      "seniorReptileHandler": "Pengendali Reptilia Kanan",
+      "quarantineSupervisor": "Penyelia Kuarantin",
+      "animalWelfareSpecialist": "Pakar Kebajikan Haiwan",
+      "transportManager": "Pengurus Pengangkutan",
+      "routeCoordinator": "Penyelaras Laluan - MENA",
+      "airFreightSpecialist": "Pakar Kargo Udara",
+      "vehicleFleetManager": "Pengurus Armada Kenderaan",
+      "climateSystemsEngineer": "Jurutera Sistem Iklim",
+      "environmentalMonitoring": "Pakar Pemantauan Persekitaran",
+      "qualityControlTechnician": "Juruteknik Kawalan Kualiti",
+      "systemsMaintenanceEngineer": "Jurutera Penyelenggaraan Sistem"
+    },
+    "bios": {
+      "elena": "Dengan lebih 20 tahun dalam perubatan veterinar dan penjagaan reptilia, Elena memastikan piawaian tertinggi dalam kebajikan haiwan.",
+      "marcus": "Bekas pakar pengangkutan hidupan liar dengan kepakaran dalam peraturan penghantaran reptilia antarabangsa dan logistik.",
+      "liWei": "Berpangkalan di Singapura, Li Wei menguruskan operasi Asia kami dan mengekalkan hubungan dengan pengimport di 12 negara.",
+      "sarah": "Pakar CITES memastikan semua penghantaran memenuhi peraturan perdagangan hidupan liar antarabangsa dan keperluan dokumentasi."
+    },
+    "joinTeam": {
+      "title": "Sertai Pasukan Reptilia Kami",
+      "description": "Berminat dengan reptilia dan logistik? Sertai pasukan pakar kami dan bantu kami terus memimpin industri pengangkutan reptilia di Eropah dan Asia.",
+      "viewCareers": "Lihat Kerjaya Reptilia",
+      "sendCV": "Hantar CV Anda"
+    }
+  }
+}

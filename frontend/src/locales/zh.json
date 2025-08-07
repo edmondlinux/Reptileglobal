@@ -1,0 +1,387 @@
+
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "team": "团队",
+    "testimonials": "客户评价",
+    "contact": "联系我们",
+    "track": "追踪",
+    "myShipments": "我的货物",
+    "dashboard": "仪表板",
+    "logOut": "退出登录",
+    "signUp": "注册",
+    "login": "登录",
+    "language": "语言"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "ms": "Bahasa Malaysia",
+    "ko": "한국어",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "submit": "提交",
+    "close": "关闭"
+  },
+  "auth": {
+    "login": {
+      "title": "登录您的账户",
+      "emailLabel": "邮箱地址",
+      "emailPlaceholder": "您的邮箱@example.com",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "••••••••",
+      "loginButton": "登录",
+      "notMember": "还不是会员？",
+      "signUpNow": "立即注册"
+    },
+    "signup": {
+      "title": "创建您的账户",
+      "nameLabel": "全名",
+      "namePlaceholder": "张三",
+      "emailLabel": "邮箱地址",
+      "emailPlaceholder": "您的邮箱@example.com",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "确认密码",
+      "confirmPasswordPlaceholder": "••••••••",
+      "signUpButton": "注册",
+      "alreadyMember": "已有账户？",
+      "loginHere": "点此登录"
+    }
+  },
+  "hero": {
+    "title": "Reptile Global",
+    "subtitle": "",
+    "description": "我们致力于让您的爬虫安全舒适地到达需要去的地方。不仅遍及美国，还覆盖整个欧洲和亚洲。通过我们的温控运输，您的爬虫可以轻松无压力地前往中国、马来西亚、韩国等地。",
+    "getQuote": "获取报价",
+    "trackShipment": "追踪货物",
+    "enterTracking": "输入追踪号码...",
+    "trackNow": "立即追踪",
+    "tracking": "正在追踪您的货物..."
+  },
+  "partners": {
+    "title": "行业领导者的信赖选择",
+    "description": "我们与世界领先的物流公司合作，为您提供全面的运输解决方案和全球覆盖。",
+    "morePartners": "以及更多值得信赖的全球合作伙伴"
+  },
+  "services": {
+    "title": "我们的服务",
+    "description": "为满足您的业务需求而量身定制的综合物流解决方案",
+    "climateTransport": {
+      "title": "温控运输",
+      "description": "温度和湿度控制的车辆，确保爬虫在欧洲运输过程中的最佳条件。"
+    },
+    "europeAsia": {
+      "title": "欧洲至亚洲运输",
+      "description": "专业的国际运输服务，运往中国、马来西亚、韩国和其他亚洲国家，提供完整文件。"
+    },
+    "quarantine": {
+      "title": "检疫设施",
+      "description": "符合国际标准的认证检疫和饲养设施，确保爬虫健康和安全。"
+    },
+    "doorToDoor": {
+      "title": "门到门服务",
+      "description": "从饲养员到目的地的完整取货和交付服务，配有专业爬虫处理。"
+    },
+    "breederNetwork": {
+      "title": "饲养员网络",
+      "description": "通过我们值得信赖的网络连接欧洲爬虫饲养员与国际市场。"
+    },
+    "cites": {
+      "title": "CITES文件",
+      "description": "完整的CITES许可证处理和野生动物文件，用于合法的国际爬虫贸易。"
+    }
+  },
+  "features": {
+    "title": "为什么选择我们",
+    "description": "体验我们行业领先能力的不同之处",
+    "express": {
+      "title": "爬虫快递",
+      "description": "优先运输，最短运输时间，保障爬虫福利"
+    },
+    "tracking": {
+      "title": "活体动物追踪",
+      "description": "实时监控温度、湿度和位置"
+    },
+    "insurance": {
+      "title": "爬虫保险",
+      "description": "全面保护和专业爬虫处理协议"
+    },
+    "network": {
+      "title": "欧亚网络",
+      "description": "覆盖欧洲和主要亚洲市场的专业路线"
+    }
+  },
+  "process": {
+    "title": "工作流程",
+    "description": "简单步骤让您的货物运转起来",
+    "consultation": {
+      "title": "咨询",
+      "description": "联系我们进行爬虫运输咨询和CITES要求"
+    },
+    "pickup": {
+      "title": "安全取货",
+      "description": "专业收集，配备适当容器和气候准备"
+    },
+    "transport": {
+      "title": "温控运输",
+      "description": "通过我们的欧亚网络进行温度控制运输"
+    },
+    "delivery": {
+      "title": "安全交付",
+      "description": "健康到达，配备完整文件和健康证书"
+    }
+  },
+  "testimonials": {
+    "title": "客户评价",
+    "description": "全球企业的信赖选择",
+    "marco": {
+      "company": "欧洲爬虫饲养员",
+      "quote": "爬虫运输欧盟改变了我们向亚洲运输的方式。每只动物都健康无压力地到达。真正专业的服务。"
+    },
+    "lisa": {
+      "company": "亚洲异国进口",
+      "quote": "从欧洲到中国的可靠运输，文件完美。他们的气候控制系统一流。"
+    },
+    "johan": {
+      "company": "北欧爬虫",
+      "quote": "专业处理和快速送达马来西亚。爬虫运输欧盟了解活体动物运输的需求。"
+    },
+    "sophie": {
+      "company": "法国壁虎农场",
+      "quote": "对韩国和其他亚洲市场的出色服务。全面的CITES支持，每次都健康到达。"
+    }
+  },
+  "showcase": {
+    "title": "我们的爬虫运营",
+    "description": "专业设施和专家处理活体爬虫运输",
+    "handlers": "专业爬虫处理员",
+    "vehicles": "温控车辆",
+    "facilities": "检疫设施",
+    "distribution": "亚洲分销网络"
+  },
+  "about": {
+    "title": "关于Reptile Global",
+    "description": "凭借超过5年的爬虫运输专业经验，我们已成为全球安全、合法爬虫运输方面的领先专家。我们的网络连接欧洲饲养员与中国、马来西亚、韩国和整个亚洲的市场。",
+    "compliance": "我们获得CITES当局认证，并保持活体动物福利和国际合规的最高标准。",
+    "experience": "年经验",
+    "countries": "亚洲国家",
+    "shipped": "运输爬虫",
+    "certified": "CITES认证",
+    "certifiedDesc": "官方野生动物贸易许可证",
+    "climate": "气候控制",
+    "climateDesc": "最佳温度和湿度",
+    "monitoring": "24/7监控",
+    "monitoringDesc": "活体动物追踪和护理",
+    "rates": "竞争性价格",
+    "ratesDesc": "爬虫运输的最佳价格"
+  },
+  "cta": {
+    "title": "准备运输您的爬虫了吗？",
+    "description": "通过欧洲顶级爬虫运输专家连接亚洲市场。",
+    "getQuote": "获取运输报价",
+    "email": "邮箱: support@reptileglobal.site"
+  },
+  "contact": {
+    "hero": {
+      "title": "联系我们",
+      "subtitle": "Reptile Global",
+      "description": "联系我们的爬虫运输专家。我们随时为您提供帮助，将您的爬虫安全运送到亚洲市场。"
+    },
+    "form": {
+      "title": "获取爬虫运输报价",
+      "name": "全名",
+      "email": "电子邮箱",
+      "phone": "电话号码",
+      "company": "繁殖公司/农场",
+      "subject": "主题",
+      "message": "告诉我们您的爬虫、目的地和运输要求",
+      "serviceType": "服务类型",
+      "submit": "获取爬虫运输报价",
+      "sending": "发送中...",
+      "success": "消息发送成功！我们的爬虫专家将在24小时内联系您。",
+      "error": "发送消息失败。请重试或直接联系我们。",
+      "required": "*"
+    },
+    "serviceTypes": {
+      "general": "一般咨询",
+      "shipping": "爬虫运输报价",
+      "tracking": "追踪我的货物",
+      "documentation": "CITES文件",
+      "emergency": "紧急运输",
+      "partnership": "饲养员合作"
+    },
+    "info": {
+      "title": "爬虫运输专家",
+      "description": "准备将您的爬虫运送到亚洲吗？我们的专业团队处理从气候控制运输到CITES文件的一切，确保安全合法的国际运输。",
+      "quickContact": "快速联系",
+      "emergencyTitle": "紧急爬虫运输",
+      "emergencyDesc": "用于紧急爬虫货物或运输紧急情况",
+      "servicesTitle": "我们的爬虫服务",
+      "climateTransport": "气候控制运输",
+      "citesDoc": "CITES文件",
+      "europeAsiaShipping": "欧洲到亚洲运输",
+      "animalWelfare": "动物福利优先"
+    },
+    "offices": {
+      "title": "我们的爬虫运输网络",
+      "description": "遍布欧洲和亚洲的战略位置，实现无缝爬虫运输",
+      "amsterdam": "欧洲总部，荷兰",
+      "rome": "中欧枢纽，罗马",
+      "singapore": "亚洲运营中心",
+      "hongkong": "中国门户办事处"
+    },
+    "map": {
+      "title": "欧洲总部",
+      "description": "参观我们在阿姆斯特丹的主要爬虫设施",
+      "placeholder": "爬虫运输枢纽地图",
+      "coming": "交互式运输路线地图即将推出"
+    }
+  },
+  "gallery": {
+    "title": "我们的工作实况",
+    "description": "探索我们的画廊，展示爬虫运输、专业设备以及在欧洲和亚洲的成功交付",
+    "categories": {
+      "all": "全部",
+      "reptiles": "爬虫",
+      "equipment": "设备",
+      "process": "流程"
+    },
+    "images": {
+      "beardedTransport": "专业鬃狮蜥运输，配备气候控制",
+      "insulatedBox": "为爬虫安全运输而设计的保温箱",
+      "climateContainers": "配备温度监控的最先进运输容器",
+      "transportSetup": "大型蛇类运输专用箱",
+      "documentation": "完整的CITES文件和健康证书",
+      "packaging": "专业包装确保运输过程中动物安全",
+      "lizardCollection": "为国际运输准备的各种蜥蜴物种",
+      "monitoring": "整个旅程的实时监控和追踪"
+    }
+  },
+  "contactForm": {
+    "title": "联系我们",
+    "description": "准备发货？联系我们获取个性化报价",
+    "name": "姓名",
+    "email": "邮箱",
+    "subject": "主题",
+    "message": "消息",
+    "send": "发送消息",
+    "sending": "发送中...",
+    "success": "消息发送成功！我们会尽快回复您。",
+    "error": "发送消息失败。请重试。",
+    "contactInfo": "联系信息",
+    "phone": "电话",
+    "address": "地址",
+    "googleMap": "谷歌地图"
+  },
+  "tracking": {
+    "title": "追踪您的货物",
+    "subtitle": "输入您的追踪号码获取实时更新",
+    "currentLocation": "当前位置",
+    "estimatedDelivery": "预计送达",
+    "history": "追踪历史",
+    "notFound": "未找到货物",
+    "checkNumber": "请检查您的追踪号码并重试",
+    "readyToTrack": "准备追踪",
+    "enterNumber": "在上方输入追踪号码开始",
+    "trackingNumber": "追踪号码",
+    "clearResults": "← 清除结果",
+    "downloadPDF": "下载PDF",
+    "from": "发件人",
+    "to": "收件人",
+    "packageDetails": "包裹详情",
+    "serviceDetails": "服务详情"
+  },
+  "shipping": {
+    "from": "发件人",
+    "to": "收件人",
+    "packageDetails": "包裹详情",
+    "serviceDetails": "服务详情",
+    "description": "描述",
+    "category": "类别",
+    "weight": "重量",
+    "value": "价值",
+    "dimensions": "尺寸",
+    "fragile": "易碎品",
+    "priority": "优先级",
+    "cost": "运费",
+    "date": "发货日期",
+    "signatureRequired": "需要签收",
+    "specialInstructions": "特殊说明"
+  },
+  "team": {
+    "hero": {
+      "title": "认识我们的",
+      "titleHighlight": "爬虫专家",
+      "description": "致力于安全爬虫运输和连接欧洲饲养员与亚洲市场的专业人士。"
+    },
+    "stats": {
+      "teamMembers": "团队成员",
+      "countriesServed": "服务国家",
+      "averageExperience": "平均年经验",
+      "animalWelfareTrained": "动物福利培训"
+    },
+    "leadership": {
+      "title": "领导团队",
+      "description": "在爬虫护理、物流和国际贸易方面具有深厚知识的专家领导"
+    },
+    "departments": {
+      "title": "我们的专业团队",
+      "description": "专家部门共同努力确保爬虫安全运输",
+      "animalCare": {
+        "title": "动物护理团队",
+        "description": "专业爬虫处理员和兽医技术员确保动物福利"
+      },
+      "logistics": {
+        "title": "物流与运输",
+        "description": "气候控制运输专家和路线协调员"
+      },
+      "climate": {
+        "title": "气候技术",
+        "description": "环境监测和温度控制系统专家"
+      }
+    },
+    "positions": {
+      "ceo": "首席执行官兼兽医",
+      "operationsDirector": "运营总监",
+      "asianMarketsDirector": "亚洲市场总监",
+      "complianceOfficer": "合规与文档官员",
+      "leadVeterinarian": "首席兽医",
+      "seniorReptileHandler": "高级爬虫处理员",
+      "quarantineSupervisor": "检疫主管",
+      "animalWelfareSpecialist": "动物福利专家",
+      "transportManager": "运输经理",
+      "routeCoordinator": "路线协调员 - 中东北非",
+      "airFreightSpecialist": "航空货运专家",
+      "vehicleFleetManager": "车队管理经理",
+      "climateSystemsEngineer": "气候系统工程师",
+      "environmentalMonitoring": "环境监测专家",
+      "qualityControlTechnician": "质量控制技术员",
+      "systemsMaintenanceEngineer": "系统维护工程师"
+    },
+    "bios": {
+      "elena": "拥有20多年兽医学和爬虫护理经验，Elena确保动物福利的最高标准。",
+      "marcus": "前野生动物运输专家，在国际爬虫运输法规和物流方面具有专业知识。",
+      "liWei": "位于新加坡，Li Wei管理我们的亚洲业务，与12个国家的进口商保持关系。",
+      "sarah": "CITES专家，确保所有货物符合国际野生动物贸易法规和文档要求。"
+    },
+    "joinTeam": {
+      "title": "加入我们的爬虫团队",
+      "description": "对爬虫和物流充满热情？加入我们的专业团队，帮助我们继续在欧洲和亚洲爬虫运输行业中保持领先地位。",
+      "viewCareers": "查看爬虫职业机会",
+      "sendCV": "发送简历"
+    }
+  }
+}

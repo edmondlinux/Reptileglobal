@@ -1,0 +1,387 @@
+
+{
+  "nav": {
+    "home": "Thuis",
+    "about": "Over ons",
+    "team": "Team",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "track": "Volgen",
+    "myShipments": "Mijn Zendingen",
+    "dashboard": "Dashboard",
+    "logOut": "Uitloggen",
+    "signUp": "Registreren",
+    "login": "Inloggen",
+    "language": "Taal"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "ms": "Bahasa Malaysia",
+    "ko": "한국어",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Fout",
+    "success": "Succes",
+    "cancel": "Annuleren",
+    "save": "Opslaan",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "submit": "Verzenden",
+    "close": "Sluiten"
+  },
+  "auth": {
+    "login": {
+      "title": "Inloggen op uw account",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "u@voorbeeld.com",
+      "passwordLabel": "Wachtwoord",
+      "passwordPlaceholder": "••••••••",
+      "loginButton": "Inloggen",
+      "notMember": "Nog geen lid?",
+      "signUpNow": "Nu registreren"
+    },
+    "signup": {
+      "title": "Maak uw account aan",
+      "nameLabel": "Volledige naam",
+      "namePlaceholder": "Jan de Vries",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "u@voorbeeld.com",
+      "passwordLabel": "Wachtwoord",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Wachtwoord bevestigen",
+      "confirmPasswordPlaceholder": "••••••••",
+      "signUpButton": "Registreren",
+      "alreadyMember": "Heeft u al een account?",
+      "loginHere": "Hier inloggen"
+    }
+  },
+  "hero": {
+    "title": "Reptile Global",
+    "subtitle": "",
+    "description": "We zijn er helemaal voor om uw reptielen veilig en comfortabel naar hun bestemming te brengen. Niet alleen door de Verenigde Staten, maar ook door heel Europa en Azië. Met ons klimaatgecontroleerde transport kunnen uw reptielen stressvrij reizen naar plaatsen zoals China, Maleisië, Korea en verder.",
+    "getQuote": "Offerte krijgen",
+    "trackShipment": "Zending volgen",
+    "enterTracking": "Volgnummer invoeren...",
+    "trackNow": "Nu volgen",
+    "tracking": "Uw zending wordt gevolgd..."
+  },
+  "partners": {
+    "title": "Vertrouwd door industrie leiders",
+    "description": "We werken samen met 's werelds toonaangevende logistieke bedrijven om u uitgebreide verzendoplossingen en wereldwijde dekking te bieden.",
+    "morePartners": "En vele andere vertrouwde partners wereldwijd"
+  },
+  "services": {
+    "title": "Onze diensten",
+    "description": "Uitgebreide logistieke oplossingen op maat voor uw bedrijfsbehoeften",
+    "climateTransport": {
+      "title": "Klimaatgecontroleerd transport",
+      "description": "Temperatuur- en vochtigheidsgecontroleerde voertuigen zorgen voor optimale omstandigheden voor reptieltransport door Europa."
+    },
+    "europeAsia": {
+      "title": "Europa naar Azië verzending",
+      "description": "Gespecialiseerde internationale verzending naar China, Maleisië, Korea en andere Aziatische landen met volledige documentatie."
+    },
+    "quarantine": {
+      "title": "Quarantainefaciliteiten",
+      "description": "Gecertificeerde quarantaine- en opslagfaciliteiten die voldoen aan internationale normen voor reptielgezondheid en -veiligheid."
+    },
+    "doorToDoor": {
+      "title": "Deur-tot-deur service",
+      "description": "Complete ophaal- en afleverservice van kweker naar bestemming met deskundige reptielbehandeling."
+    },
+    "breederNetwork": {
+      "title": "Kwekers netwerk",
+      "description": "Europese reptielkwekers verbinden met internationale markten via ons vertrouwde netwerk."
+    },
+    "cites": {
+      "title": "CITES documentatie",
+      "description": "Volledige CITES vergunningsafhandeling en wildlifedocumentatie voor legale internationale reptielhandel."
+    }
+  },
+  "features": {
+    "title": "Waarom voor ons kiezen",
+    "description": "Ervaar het verschil met onze toonaangevende industriecapaciteiten",
+    "express": {
+      "title": "Express reptiellevering",
+      "description": "Prioriteitsverzending met minimale transittijden voor reptielenwelzijn"
+    },
+    "tracking": {
+      "title": "Levende dieren tracking",
+      "description": "Real-time monitoring van temperatuur, vochtigheid en locatie"
+    },
+    "insurance": {
+      "title": "Reptielenverzekering",
+      "description": "Uitgebreide dekking en deskundige reptielbehandelingsprotocollen"
+    },
+    "network": {
+      "title": "Europa-Azië netwerk",
+      "description": "Gespecialiseerde routes die Europa en belangrijke Aziatische markten dekken"
+    }
+  },
+  "process": {
+    "title": "Hoe het werkt",
+    "description": "Eenvoudige stappen om uw zending in beweging te krijgen",
+    "consultation": {
+      "title": "Consultatie",
+      "description": "Neem contact met ons op voor reptielverzendsadvies en CITES vereisten"
+    },
+    "pickup": {
+      "title": "Veilige ophaling",
+      "description": "Deskundige ophaling met juiste containers en klimaatvoorbereiding"
+    },
+    "transport": {
+      "title": "Klimaattransport",
+      "description": "Temperatuurgecontroleerd transport via ons Europa-Azië netwerk"
+    },
+    "delivery": {
+      "title": "Veilige levering",
+      "description": "Gezonde aankomst met volledige documentatie en gezondheidscertificaten"
+    }
+  },
+  "testimonials": {
+    "title": "Wat onze klanten zeggen",
+    "description": "Vertrouwd door bedrijven wereldwijd",
+    "marco": {
+      "company": "Europese reptielkwekers",
+      "quote": "Reptielvervoerders EU heeft gerevolutioneerd hoe we naar Azië verzenden. Elk dier komt gezond en stressvrij aan. Echt professionele service."
+    },
+    "lisa": {
+      "company": "Aziatische exotische import",
+      "quote": "Betrouwbare verzending van Europa naar China met perfecte documentatie. Hun klimaatcontrolesystemen zijn eersteklas."
+    },
+    "johan": {
+      "company": "Noordse reptielen",
+      "quote": "Professionele behandeling en snelle levering naar Maleisië. Reptielvervoerders EU begrijpt de behoeften van levende dierentransport."
+    },
+    "sophie": {
+      "company": "Franse gecko boerderij",
+      "quote": "Uitstekende service naar Korea en andere Aziatische markten. Volledige CITES ondersteuning en gezonde aankomsten elke keer."
+    }
+  },
+  "showcase": {
+    "title": "Onze reptieloperaties",
+    "description": "Gespecialiseerde faciliteiten en deskundige behandeling voor levende reptieltransport",
+    "handlers": "Expert reptielbehandelaars",
+    "vehicles": "Klimaatgecontroleerde voertuigen",
+    "facilities": "Quarantainefaciliteiten",
+    "distribution": "Aziatisch distributienetwerk"
+  },
+  "about": {
+    "title": "Over Reptile Global",
+    "description": "Met meer dan 5 jaar gespecialiseerde ervaring in reptieltransport zijn we een toonaangevende expert geworden in veilige, legale reptielenverzending wereldwijd. Ons netwerk verbindt Europese kwekers met markten in China, Maleisië, Korea en door heel Azië.",
+    "compliance": "We zijn gecertificeerd door CITES autoriteiten en handhaven de hoogste normen voor levende dierenwelzijn en internationale compliance.",
+    "experience": "Jaar ervaring",
+    "countries": "Aziatische landen",
+    "shipped": "Reptielen verzonden",
+    "certified": "CITES gecertificeerd",
+    "certifiedDesc": "Officiële wildlifehandelsvergunningen",
+    "climate": "Klimaatgecontroleerd",
+    "climateDesc": "Optimale temperatuur & vochtigheid",
+    "monitoring": "24/7 monitoring",
+    "monitoringDesc": "Levende dieren tracking & zorg",
+    "rates": "Concurrerende tarieven",
+    "ratesDesc": "Beste prijzen voor reptielenverzending"
+  },
+  "cta": {
+    "title": "Klaar om uw reptielen te verzenden?",
+    "description": "Verbind met Aziatische markten via Europa's premier reptieltransportspecialisten.",
+    "getQuote": "Verzendofferte krijgen",
+    "email": "email: support@reptileglobal.site"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Reptile Global",
+      "description": "Neem contact op met onze reptieltransportexperts. We zijn er om uw reptielen veilig naar Aziatische markten te verzenden."
+    },
+    "form": {
+      "title": "Krijg een reptielenverzendofferte",
+      "name": "Volledige naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "company": "Kweekbedrijf/boerderij",
+      "subject": "Onderwerp",
+      "message": "Vertel ons over uw reptielen, bestemming en verzendvereisten",
+      "serviceType": "Service type",
+      "submit": "Reptielenverzendofferte krijgen",
+      "sending": "Verzenden...",
+      "success": "Bericht succesvol verzonden! Onze reptielexperts nemen binnen 24 uur contact met u op.",
+      "error": "Kon bericht niet verzenden. Probeer opnieuw of neem direct contact met ons op.",
+      "required": "*"
+    },
+    "serviceTypes": {
+      "general": "Algemene vraag",
+      "shipping": "Reptielenverzendofferte",
+      "tracking": "Mijn zending volgen",
+      "documentation": "CITES documentatie",
+      "emergency": "Noodtransport",
+      "partnership": "Kwekerspartnerschap"
+    },
+    "info": {
+      "title": "Reptielenverzendexperts",
+      "description": "Klaar om uw reptielen naar Azië te verzenden? Ons gespecialiseerde team behandelt alles van klimaatgecontroleerd transport tot CITES documentatie voor veilige, legale internationale verzending.",
+      "quickContact": "Snel contact",
+      "emergencyTitle": "Nood reptieltransport",
+      "emergencyDesc": "Voor dringende reptielzendingen of transportnoodgevallen",
+      "servicesTitle": "Onze reptieldiensten",
+      "climateTransport": "Klimaatgecontroleerd transport",
+      "citesDoc": "CITES documentatie",
+      "europeAsiaShipping": "Europa naar Azië verzending",
+      "animalWelfare": "Dierenwelzijn prioriteit"
+    },
+    "offices": {
+      "title": "Ons reptieltransportnetwerk",
+      "description": "Strategische locaties in Europa en Azië voor naadloze reptielenverzending",
+      "amsterdam": "Europees hoofdkantoor, Nederland",
+      "rome": "Midden-Europa hub, Rome",
+      "singapore": "Aziatisch operatiecentrum",
+      "hongkong": "China gateway kantoor"
+    },
+    "map": {
+      "title": "Europees hoofdkantoor",
+      "description": "Bezoek onze hoofdreptielenfaciliteit in Amsterdam",
+      "placeholder": "Reptieltransport hub kaart",
+      "coming": "Interactieve verzendroute kaart komt binnenkort"
+    }
+  },
+  "gallery": {
+    "title": "Ons werk in actie",
+    "description": "Verken onze galerij met reptieltransport, gespecialiseerde apparatuur en succesvolle leveringen in Europa en Azië",
+    "categories": {
+      "all": "Alle",
+      "reptiles": "Reptielen",
+      "equipment": "Apparatuur",
+      "process": "Proces"
+    },
+    "images": {
+      "beardedTransport": "Professioneel baardagaam transport met klimaatcontrole",
+      "insulatedBox": "Goed geïsoleerde doos voor veilig reptieltransport",
+      "climateContainers": "State-of-the-art verzendcontainers met temperatuurmonitoring",
+      "transportSetup": "Gespecialiseerde dozen voor grote slangentransport",
+      "documentation": "Volledige CITES documentatie en gezondheidscertificaten",
+      "packaging": "Professionele verpakking voor dierenveiligheid tijdens transport",
+      "lizardCollection": "Verschillende hagedissoorten voorbereid voor internationale verzending",
+      "monitoring": "Real-time monitoring en tracking gedurende de hele reis"
+    }
+  },
+  "contactForm": {
+    "title": "Contact opnemen",
+    "description": "Klaar om te verzenden? Neem contact met ons op voor een persoonlijke offerte",
+    "name": "Naam",
+    "email": "E-mail",
+    "subject": "Onderwerp",
+    "message": "Bericht",
+    "send": "Bericht verzenden",
+    "sending": "Verzenden...",
+    "success": "Bericht succesvol verzonden! We nemen binnenkort contact met u op.",
+    "error": "Kon bericht niet verzenden. Probeer opnieuw.",
+    "contactInfo": "Contactinformatie",
+    "phone": "Telefoon",
+    "address": "Adres",
+    "googleMap": "Google Maps"
+  },
+  "tracking": {
+    "title": "Volg uw zending",
+    "subtitle": "Voer uw volgnummer in voor real-time updates",
+    "currentLocation": "Huidige locatie",
+    "estimatedDelivery": "Geschatte levering",
+    "history": "Volggeschiedenis",
+    "notFound": "Geen zending gevonden",
+    "checkNumber": "Controleer uw volgnummer en probeer opnieuw",
+    "readyToTrack": "Klaar om te volgen",
+    "enterNumber": "Voer hierboven een volgnummer in om te beginnen",
+    "trackingNumber": "Volgnummer",
+    "clearResults": "← Resultaten wissen",
+    "downloadPDF": "PDF downloaden",
+    "from": "Van",
+    "to": "Naar",
+    "packageDetails": "Pakketdetails",
+    "serviceDetails": "Servicedetails"
+  },
+  "shipping": {
+    "from": "Van",
+    "to": "Naar",
+    "packageDetails": "Pakketdetails",
+    "serviceDetails": "Servicedetails",
+    "description": "Beschrijving",
+    "category": "Categorie",
+    "weight": "Gewicht",
+    "value": "Waarde",
+    "dimensions": "Afmetingen",
+    "fragile": "Breekbaar",
+    "priority": "Prioriteit",
+    "cost": "Verzendkosten",
+    "date": "Verzenddatum",
+    "signatureRequired": "Handtekening vereist",
+    "specialInstructions": "Speciale instructies"
+  },
+  "team": {
+    "hero": {
+      "title": "Ontmoet onze",
+      "titleHighlight": "Reptielexperts",
+      "description": "Gepassioneerde professionals toegewijd aan veilig reptieltransport en het verbinden van Europese kwekers met Aziatische markten."
+    },
+    "stats": {
+      "teamMembers": "Teamleden",
+      "countriesServed": "Landen bediend",
+      "averageExperience": "Jaar gemiddelde ervaring",
+      "animalWelfareTrained": "Dierenwelzijn getraind"
+    },
+    "leadership": {
+      "title": "Leiderschapsteam",
+      "description": "Expert leiders met diepgaande kennis van reptielzorg, logistiek en internationale handel"
+    },
+    "departments": {
+      "title": "Onze gespecialiseerde teams",
+      "description": "Expert afdelingen werken samen om veilig reptieltransport te waarborgen",
+      "animalCare": {
+        "title": "Dierenzorg team",
+        "description": "Gespecialiseerde reptielbehandelaars en veterinaire technici voor dierenwelzijn"
+      },
+      "logistics": {
+        "title": "Logistiek & transport",
+        "description": "Klimaatgecontroleerde transportspecialisten en routecoördinatoren"
+      },
+      "climate": {
+        "title": "Klimaattechnologie",
+        "description": "Milieumonitoring en temperatuurcontrolesysteem specialisten"
+      }
+    },
+    "positions": {
+      "ceo": "Chief Executive Officer & Dierenarts",
+      "operationsDirector": "Operationeel directeur",
+      "asianMarketsDirector": "Directeur Aziatische markten",
+      "complianceOfficer": "Compliance & documentatie functionaris",
+      "leadVeterinarian": "Hoofddierenarts",
+      "seniorReptileHandler": "Senior reptielbehandelaar",
+      "quarantineSupervisor": "Quarantaine supervisor",
+      "animalWelfareSpecialist": "Dierenwelzijn specialist",
+      "transportManager": "Transport manager",
+      "routeCoordinator": "Route coördinator - MENA",
+      "airFreightSpecialist": "Luchtvracht specialist",
+      "vehicleFleetManager": "Voertuigvloot manager",
+      "climateSystemsEngineer": "Klimaatsystemen ingenieur",
+      "environmentalMonitoring": "Milieumonitoring specialist",
+      "qualityControlTechnician": "Kwaliteitscontrole technicus",
+      "systemsMaintenanceEngineer": "Systeemonderhoud ingenieur"
+    },
+    "bios": {
+      "elena": "Met 20+ jaar in veterinaire geneeskunde en reptielzorg zorgt Elena voor de hoogste normen in dierenwelzijn.",
+      "marcus": "Voormalig wildlife transport specialist met expertise in internationale reptielenverzendregels en logistiek.",
+      "liWei": "Gevestigd in Singapore, beheert Li Wei onze Aziatische operaties en onderhoudt relaties met importeurs in 12 landen.",
+      "sarah": "CITES specialist die ervoor zorgt dat alle zendingen voldoen aan internationale wildlifehandelsregels en documentatievereisten."
+    },
+    "joinTeam": {
+      "title": "Word lid van ons reptielenteam",
+      "description": "Gepassioneerd over reptielen en logistiek? Sluit je aan bij ons gespecialiseerde team en help ons de reptieltransportindustrie in Europa en Azië te blijven leiden.",
+      "viewCareers": "Bekijk reptielencarrières",
+      "sendCV": "Stuur uw CV"
+    }
+  }
+}

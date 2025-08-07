@@ -1,0 +1,387 @@
+
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "team": "Team",
+    "testimonials": "Referenzen",
+    "contact": "Kontakt",
+    "track": "Verfolgen",
+    "myShipments": "Meine Sendungen",
+    "dashboard": "Dashboard",
+    "logOut": "Abmelden",
+    "signUp": "Registrieren",
+    "login": "Anmelden",
+    "language": "Sprache"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文",
+    "ms": "Bahasa Malaysia",
+    "ko": "한국어",
+    "fr": "Français",
+    "es": "Español",
+    "de": "Deutsch",
+    "nl": "Nederlands"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "submit": "Senden",
+    "close": "Schließen"
+  },
+  "auth": {
+    "login": {
+      "title": "Bei Ihrem Konto anmelden",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre@beispiel.com",
+      "passwordLabel": "Passwort",
+      "passwordPlaceholder": "••••••••",
+      "loginButton": "Anmelden",
+      "notMember": "Noch kein Mitglied?",
+      "signUpNow": "Jetzt registrieren"
+    },
+    "signup": {
+      "title": "Ihr Konto erstellen",
+      "nameLabel": "Vollständiger Name",
+      "namePlaceholder": "Max Mustermann",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre@beispiel.com",
+      "passwordLabel": "Passwort",
+      "passwordPlaceholder": "••••••••",
+      "confirmPasswordLabel": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "••••••••",
+      "signUpButton": "Registrieren",
+      "alreadyMember": "Haben Sie bereits ein Konto?",
+      "loginHere": "Hier anmelden"
+    }
+  },
+  "hero": {
+    "title": "Reptile Global",
+    "subtitle": "",
+    "description": "Wir sind darauf spezialisiert, Ihre Reptilien sicher und komfortabel dorthin zu bringen, wo sie hingehören. Nicht nur durch die Vereinigten Staaten, sondern auch in ganz Europa und Asien. Mit unserem klimatisierten Transport können Ihre Reptilien stressfrei zu Orten wie China, Malaysia, Korea und darüber hinaus reisen.",
+    "getQuote": "Angebot erhalten",
+    "trackShipment": "Sendung verfolgen",
+    "enterTracking": "Sendungsnummer eingeben...",
+    "trackNow": "Jetzt verfolgen",
+    "tracking": "Ihre Sendung wird verfolgt..."
+  },
+  "partners": {
+    "title": "Vertrauenspartner der Branchenführer",
+    "description": "Wir arbeiten mit den weltweit führenden Logistikunternehmen zusammen, um Ihnen umfassende Versandlösungen und globale Abdeckung zu bieten.",
+    "morePartners": "Und viele weitere vertrauenswürdige Partner weltweit"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "description": "Umfassende Logistiklösungen, maßgeschneidert für Ihre Geschäftsanforderungen",
+    "climateTransport": {
+      "title": "Klimatisierter Transport",
+      "description": "Temperatur- und feuchtigkeitskontrollierte Fahrzeuge gewährleisten optimale Bedingungen für den Reptilienversand in ganz Europa."
+    },
+    "europeAsia": {
+      "title": "Europa-Asien-Versand",
+      "description": "Spezialisierter internationaler Versand nach China, Malaysia, Korea und anderen asiatischen Ländern mit vollständiger Dokumentation."
+    },
+    "quarantine": {
+      "title": "Quarantäne-Einrichtungen",
+      "description": "Zertifizierte Quarantäne- und Haltungseinrichtungen, die internationale Standards für Reptiliengesundheit und -sicherheit erfüllen."
+    },
+    "doorToDoor": {
+      "title": "Tür-zu-Tür-Service",
+      "description": "Kompletter Abhol- und Lieferservice vom Züchter zum Zielort mit fachmännischer Reptilienbehandlung."
+    },
+    "breederNetwork": {
+      "title": "Züchter-Netzwerk",
+      "description": "Verbindung europäischer Reptilienzüchter mit internationalen Märkten durch unser vertrauensvolles Netzwerk."
+    },
+    "cites": {
+      "title": "CITES-Dokumentation",
+      "description": "Vollständige CITES-Genehmigungsbearbeitung und Wildtier-Dokumentation für legalen internationalen Reptilienhandel."
+    }
+  },
+  "features": {
+    "title": "Warum uns wählen",
+    "description": "Erleben Sie den Unterschied mit unseren branchenführenden Fähigkeiten",
+    "express": {
+      "title": "Express-Reptilienlieferung",
+      "description": "Prioritätsversand mit minimalen Transitzeiten für das Wohlbefinden der Reptilien"
+    },
+    "tracking": {
+      "title": "Lebendtier-Verfolgung",
+      "description": "Echtzeitüberwachung von Temperatur, Feuchtigkeit und Standort"
+    },
+    "insurance": {
+      "title": "Reptilien-Versicherung",
+      "description": "Umfassende Abdeckung und fachmännische Reptilien-Behandlungsprotokolle"
+    },
+    "network": {
+      "title": "Europa-Asien-Netzwerk",
+      "description": "Spezialisierte Routen, die Europa und wichtige asiatische Märkte abdecken"
+    }
+  },
+  "process": {
+    "title": "Wie es funktioniert",
+    "description": "Einfache Schritte, um Ihre Sendung in Bewegung zu bringen",
+    "consultation": {
+      "title": "Beratung",
+      "description": "Kontaktieren Sie uns für Reptilienversand-Beratung und CITES-Anforderungen"
+    },
+    "pickup": {
+      "title": "Sichere Abholung",
+      "description": "Fachkundige Abholung mit geeigneten Behältern und Klimavorbereitung"
+    },
+    "transport": {
+      "title": "Klimatransport",
+      "description": "Temperaturkontrollierter Transport durch unser Europa-Asien-Netzwerk"
+    },
+    "delivery": {
+      "title": "Sichere Lieferung",
+      "description": "Gesunde Ankunft mit vollständiger Dokumentation und Gesundheitszertifikaten"
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "description": "Vertrauenspartner von Unternehmen weltweit",
+    "marco": {
+      "company": "Europäische Reptilienzüchter",
+      "quote": "Reptilien-Transporter EU hat revolutioniert, wie wir nach Asien versenden. Jedes Tier kommt gesund und stressfrei an. Wirklich professioneller Service."
+    },
+    "lisa": {
+      "company": "Asiatische Exotik-Importe",
+      "quote": "Zuverlässiger Versand von Europa nach China mit perfekter Dokumentation. Ihre Klimakontrollsysteme sind erstklassig."
+    },
+    "johan": {
+      "company": "Nordische Reptilien",
+      "quote": "Professionelle Behandlung und schnelle Lieferung nach Malaysia. Reptilien-Transporter EU versteht die Bedürfnisse des Lebendtiertransports."
+    },
+    "sophie": {
+      "company": "Französische Gecko-Farm",
+      "quote": "Ausgezeichneter Service nach Korea und andere asiatische Märkte. Vollständige CITES-Unterstützung und gesunde Ankünfte jedes Mal."
+    }
+  },
+  "showcase": {
+    "title": "Unsere Reptilien-Operationen",
+    "description": "Spezialisierte Einrichtungen und Expertenbehandlung für Lebend-Reptilienversand",
+    "handlers": "Experten-Reptilienbehandler",
+    "vehicles": "Klimatisierte Fahrzeuge",
+    "facilities": "Quarantäne-Einrichtungen",
+    "distribution": "Asiatisches Vertriebsnetzwerk"
+  },
+  "about": {
+    "title": "Über Reptile Global",
+    "description": "Mit über 5 Jahren spezialisierter Erfahrung im Reptilienversand sind wir ein führender Experte für sicheren, legalen Reptilienversand weltweit geworden. Unser Netzwerk verbindet europäische Züchter mit Märkten in China, Malaysia, Korea und ganz Asien.",
+    "compliance": "Wir sind von CITES-Behörden zertifiziert und halten die höchsten Standards für Lebendtier-Wohlbefinden und internationale Compliance.",
+    "experience": "Jahre Erfahrung",
+    "countries": "Asiatische Länder",
+    "shipped": "Versendete Reptilien",
+    "certified": "CITES-zertifiziert",
+    "certifiedDesc": "Offizielle Wildtier-Handelsgenehmigungen",
+    "climate": "Klimakontrolliert",
+    "climateDesc": "Optimale Temperatur & Feuchtigkeit",
+    "monitoring": "24/7-Überwachung",
+    "monitoringDesc": "Lebendtier-Verfolgung & -pflege",
+    "rates": "Wettbewerbsfähige Preise",
+    "ratesDesc": "Beste Preise für Reptilienversand"
+  },
+  "cta": {
+    "title": "Bereit, Ihre Reptilien zu versenden?",
+    "description": "Verbinden Sie sich mit asiatischen Märkten durch Europas führende Reptilien-Transport-Spezialisten.",
+    "getQuote": "Versandangebot erhalten",
+    "email": "E-Mail: support@reptileglobal.site"
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontakt",
+      "subtitle": "Reptile Global",
+      "description": "Kontaktieren Sie unsere Reptilien-Transport-Experten. Wir sind da, um Ihre Reptilien sicher zu asiatischen Märkten zu versenden."
+    },
+    "form": {
+      "title": "Reptilien-Versandangebot erhalten",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "company": "Zuchtunternehmen/Farm",
+      "subject": "Betreff",
+      "message": "Erzählen Sie uns von Ihren Reptilien, Zielort und Versandanforderungen",
+      "serviceType": "Service-Typ",
+      "submit": "Reptilien-Versandangebot erhalten",
+      "sending": "Wird gesendet...",
+      "success": "Nachricht erfolgreich gesendet! Unsere Reptilien-Experten werden Sie innerhalb von 24 Stunden kontaktieren.",
+      "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+      "required": "*"
+    },
+    "serviceTypes": {
+      "general": "Allgemeine Anfrage",
+      "shipping": "Reptilien-Versandangebot",
+      "tracking": "Meine Sendung verfolgen",
+      "documentation": "CITES-Dokumentation",
+      "emergency": "Notfalltransport",
+      "partnership": "Züchter-Partnerschaft"
+    },
+    "info": {
+      "title": "Reptilien-Versand-Experten",
+      "description": "Bereit, Ihre Reptilien nach Asien zu versenden? Unser spezialisiertes Team kümmert sich um alles, vom klimatisierten Transport bis zur CITES-Dokumentation für sicheren, legalen internationalen Versand.",
+      "quickContact": "Schnellkontakt",
+      "emergencyTitle": "Notfall-Reptilienversand",
+      "emergencyDesc": "Für dringende Reptiliensendungen oder Transport-Notfälle",
+      "servicesTitle": "Unsere Reptilien-Services",
+      "climateTransport": "Klimatisierter Transport",
+      "citesDoc": "CITES-Dokumentation",
+      "europeAsiaShipping": "Europa-Asien-Versand",
+      "animalWelfare": "Priorität Tierwohl"
+    },
+    "offices": {
+      "title": "Unser Reptilien-Transport-Netzwerk",
+      "description": "Strategische Standorte in Europa und Asien für nahtlosen Reptilienversand",
+      "amsterdam": "Europäische Zentrale, Niederlande",
+      "rome": "Mitteleuropa-Hub, Rom",
+      "singapore": "Asiatisches Operationszentrum",
+      "hongkong": "China-Gateway-Büro"
+    },
+    "map": {
+      "title": "Europäische Zentrale",
+      "description": "Besuchen Sie unsere Hauptreptilien-Einrichtung in Amsterdam",
+      "placeholder": "Reptilien-Transport-Hub-Karte",
+      "coming": "Interaktive Versandrouten-Karte kommt bald"
+    }
+  },
+  "gallery": {
+    "title": "Unsere Arbeit in Aktion",
+    "description": "Erkunden Sie unsere Galerie mit Reptilienversand, spezialisierter Ausrüstung und erfolgreichen Lieferungen in Europa und Asien",
+    "categories": {
+      "all": "Alle",
+      "reptiles": "Reptilien",
+      "equipment": "Ausrüstung",
+      "process": "Prozess"
+    },
+    "images": {
+      "beardedTransport": "Professioneller Bartagamen-Transport mit Klimakontrolle",
+      "insulatedBox": "Gut isolierte Box für sicheren Reptilienversand",
+      "climateContainers": "Hochmoderne Versandcontainer mit Temperaturüberwachung",
+      "transportSetup": "Spezialisierte Boxen für Großschlangen-Transport",
+      "documentation": "Vollständige CITES-Dokumentation und Gesundheitszertifikate",
+      "packaging": "Professionelle Verpackung für Tiersicherheit während des Transports",
+      "lizardCollection": "Verschiedene Echsenarten für internationalen Versand vorbereitet",
+      "monitoring": "Echtzeit-Überwachung und -verfolgung während der gesamten Reise"
+    }
+  },
+  "contactForm": {
+    "title": "Kontakt aufnehmen",
+    "description": "Bereit zu versenden? Kontaktieren Sie uns für ein persönliches Angebot",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "success": "Nachricht erfolgreich gesendet! Wir melden uns bald bei Ihnen.",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "contactInfo": "Kontaktinformationen",
+    "phone": "Telefon",
+    "address": "Adresse",
+    "googleMap": "Google Maps"
+  },
+  "tracking": {
+    "title": "Ihre Sendung verfolgen",
+    "subtitle": "Geben Sie Ihre Sendungsnummer ein, um Echtzeit-Updates zu erhalten",
+    "currentLocation": "Aktueller Standort",
+    "estimatedDelivery": "Voraussichtliche Lieferung",
+    "history": "Verfolgungshistorie",
+    "notFound": "Keine Sendung gefunden",
+    "checkNumber": "Bitte überprüfen Sie Ihre Sendungsnummer und versuchen Sie es erneut",
+    "readyToTrack": "Bereit zu verfolgen",
+    "enterNumber": "Geben Sie oben eine Sendungsnummer ein, um zu beginnen",
+    "trackingNumber": "Sendungsnummer",
+    "clearResults": "← Ergebnisse löschen",
+    "downloadPDF": "PDF herunterladen",
+    "from": "Von",
+    "to": "An",
+    "packageDetails": "Paketdetails",
+    "serviceDetails": "Service-Details"
+  },
+  "shipping": {
+    "from": "Von",
+    "to": "An",
+    "packageDetails": "Paketdetails",
+    "serviceDetails": "Service-Details",
+    "description": "Beschreibung",
+    "category": "Kategorie",
+    "weight": "Gewicht",
+    "value": "Wert",
+    "dimensions": "Abmessungen",
+    "fragile": "Zerbrechlich",
+    "priority": "Priorität",
+    "cost": "Versandkosten",
+    "date": "Versanddatum",
+    "signatureRequired": "Unterschrift erforderlich",
+    "specialInstructions": "Besondere Anweisungen"
+  },
+  "team": {
+    "hero": {
+      "title": "Lernen Sie unsere",
+      "titleHighlight": "Reptilien-Experten kennen",
+      "description": "Leidenschaftliche Profis, die sich dem sicheren Reptilienversand und der Verbindung europäischer Züchter mit asiatischen Märkten widmen."
+    },
+    "stats": {
+      "teamMembers": "Team-Mitglieder",
+      "countriesServed": "Bediente Länder",
+      "averageExperience": "Jahre durchschnittliche Erfahrung",
+      "animalWelfareTrained": "Tierwohl-geschult"
+    },
+    "leadership": {
+      "title": "Führungsteam",
+      "description": "Experten-Führungskräfte mit tiefem Wissen in Reptilienpflege, Logistik und internationalem Handel"
+    },
+    "departments": {
+      "title": "Unsere spezialisierten Teams",
+      "description": "Experten-Abteilungen arbeiten zusammen, um sicheren Reptilienversand zu gewährleisten",
+      "animalCare": {
+        "title": "Tierpflege-Team",
+        "description": "Spezialisierte Reptilien-Behandler und Veterinär-Techniker für Tierwohl"
+      },
+      "logistics": {
+        "title": "Logistik & Transport",
+        "description": "Klimatisierte Transport-Spezialisten und Routen-Koordinatoren"
+      },
+      "climate": {
+        "title": "Klima-Technologie",
+        "description": "Umweltüberwachung und Temperaturkontroll-System-Spezialisten"
+      }
+    },
+    "positions": {
+      "ceo": "Geschäftsführer & Veterinär",
+      "operationsDirector": "Betriebsleiter",
+      "asianMarketsDirector": "Direktor Asiatische Märkte",
+      "complianceOfficer": "Compliance & Dokumentations-Beauftragter",
+      "leadVeterinarian": "Leitender Veterinär",
+      "seniorReptileHandler": "Senior Reptilien-Behandler",
+      "quarantineSupervisor": "Quarantäne-Supervisor",
+      "animalWelfareSpecialist": "Tierwohl-Spezialist",
+      "transportManager": "Transport-Manager",
+      "routeCoordinator": "Routen-Koordinator - MENA",
+      "airFreightSpecialist": "Luftfracht-Spezialist",
+      "vehicleFleetManager": "Fuhrpark-Manager",
+      "climateSystemsEngineer": "Klimasystem-Ingenieur",
+      "environmentalMonitoring": "Umweltüberwachungs-Spezialist",
+      "qualityControlTechnician": "Qualitätskontroll-Techniker",
+      "systemsMaintenanceEngineer": "System-Wartungs-Ingenieur"
+    },
+    "bios": {
+      "elena": "Mit über 20 Jahren in Veterinärmedizin und Reptilienpflege gewährleistet Elena die höchsten Standards im Tierwohl.",
+      "marcus": "Ehemaliger Wildtier-Transport-Spezialist mit Expertise in internationalen Reptilien-Versandbestimmungen und Logistik.",
+      "liWei": "In Singapur ansässig, verwaltet Li Wei unsere asiatischen Operationen und pflegt Beziehungen zu Importeuren in 12 Ländern.",
+      "sarah": "CITES-Spezialistin, die sicherstellt, dass alle Sendungen internationale Wildtier-Handelsbestimmungen und Dokumentationsanforderungen erfüllen."
+    },
+    "joinTeam": {
+      "title": "Treten Sie unserem Reptilien-Team bei",
+      "description": "Leidenschaftlich für Reptilien und Logistik? Treten Sie unserem spezialisierten Team bei und helfen Sie uns, die Reptilien-Transport-Industrie in Europa und Asien weiter zu führen.",
+      "viewCareers": "Reptilien-Karrieren ansehen",
+      "sendCV": "Senden Sie Ihren Lebenslauf"
+    }
+  }
+}
