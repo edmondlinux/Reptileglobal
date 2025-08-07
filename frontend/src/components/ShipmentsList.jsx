@@ -1,15 +1,28 @@
-
 import { useEffect, useState } from "react";
 import { useShipmentStore } from "../stores/useShipmentStore";
-import { Package, Clock, CheckCircle, Truck, AlertCircle, MapPin, Edit, Eye } from "lucide-react";
+import {
+	Package,
+	Clock,
+	CheckCircle,
+	Truck,
+	AlertCircle,
+	MapPin,
+	Edit,
+	Eye,
+	Key,
+	Trash2 // 👈 add this
+} from "lucide-react";
 import LoadingSpinner from "./LoadingSpinner";
 import EditShipmentForm from "./EditShipmentForm";
+import KYCMagicLinkGenerator from "./KYCMagicLinkGenerator";
 
 const ShipmentsList = ({ isAdmin = false }) => {
-	const { shipments, loading, getAllShipments, getUserShipments, updateShipmentStatus, updateShipment } = useShipmentStore();
+	const { shipments, loading, getAllShipments, getUserShipments, updateShipment, deleteShipment } = useShipmentStore();
 	const [statusFilter, setStatusFilter] = useState("all");
 	const [sortBy, setSortBy] = useState("createdAt");
 	const [editingShipment, setEditingShipment] = useState(null);
+	const [showKYCModal, setShowKYCModal] = useState(false);
+	const [selectedShipmentForKYC, setSelectedShipmentForKYC] = useState(null);
 
 	useEffect(() => {
 		if (isAdmin) {
@@ -45,7 +58,7 @@ const ShipmentsList = ({ isAdmin = false }) => {
 
 	// Ensure shipments is always an array
 	const shipmentsArray = Array.isArray(shipments) ? shipments : (shipments?.shipments || []);
-	
+
 	const filteredShipments = shipmentsArray.filter(shipment => {
 		if (statusFilter === "all") return true;
 		return shipment.status === statusFilter;
@@ -71,6 +84,17 @@ const ShipmentsList = ({ isAdmin = false }) => {
 		} catch (error) {
 			console.error("Failed to update shipment:", error);
 		}
+	};
+
+	const handleDeleteShipment = async (shipmentId) => {
+		if (window.confirm("Are you sure you want to delete this shipment?")) {
+			await deleteShipment(shipmentId);
+		}
+	};
+
+	const handleGenerateKYCLink = (shipment) => {
+		setSelectedShipmentForKYC(shipment);
+		setShowKYCModal(true);
 	};
 
 	if (loading) {
@@ -151,13 +175,26 @@ const ShipmentsList = ({ isAdmin = false }) => {
 									</div>
 								</div>
 								{isAdmin && (
-									<div className="flex gap-2 mt-4 lg:mt-0">
+									<div className='flex space-x-2'>
+										<button
+											onClick={() => handleGenerateKYCLink(shipment)}
+											className='bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-1 rounded text-sm transition duration-300'
+											title="Generate KYC Magic Link"
+										>
+											<Key className='w-4 h-4' />
+										</button>
 										<button
 											onClick={() => setEditingShipment(shipment)}
-											className="bg-emerald-600 hover:bg-emerald-700 px-4 py-2 rounded-lg text-sm font-medium transition duration-300 flex items-center gap-2"
+											className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-medium transition duration-300 flex items-center gap-2"
 										>
 											<Edit className="w-4 h-4" />
 											Edit
+										</button>
+										<button
+											onClick={() => handleDeleteShipment(shipment._id)}
+											className='bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded text-sm transition duration-300'
+										>
+											<Trash2 className='w-4 h-4' />
 										</button>
 									</div>
 								)}
@@ -243,6 +280,16 @@ const ShipmentsList = ({ isAdmin = false }) => {
 					shipment={editingShipment}
 					onUpdate={handleShipmentUpdate}
 					onClose={() => setEditingShipment(null)}
+				/>
+			)}
+
+			{showKYCModal && selectedShipmentForKYC && (
+				<KYCMagicLinkGenerator
+					shipment={selectedShipmentForKYC}
+					onClose={() => {
+						setShowKYCModal(false);
+						setSelectedShipmentForKYC(null);
+					}}
 				/>
 			)}
 		</div>
