@@ -1,7 +1,19 @@
-
 import mongoose from "mongoose";
 import crypto from "crypto";
 import cloudinary from "cloudinary";
+
+// Hardcoded configuration values - using var to ensure global scope
+var FRONTEND_URL = 'https://reptileglobal.site';
+var CLOUDINARY_CLOUD_NAME = 'dykpxav2z';
+var CLOUDINARY_API_KEY = '485318534978719';
+var CLOUDINARY_API_SECRET = 'AVKb7dDnBCcQN6FRTxffiXt9rAY';
+
+// Configure Cloudinary
+cloudinary.v2.config({
+  cloud_name: CLOUDINARY_CLOUD_NAME,
+  api_key: CLOUDINARY_API_KEY,
+  api_secret: CLOUDINARY_API_SECRET
+});
 
 // In-memory store for magic tokens (use Redis in production)
 const magicTokens = new Map();
@@ -16,7 +28,8 @@ const kycSubmissionSchema = new mongoose.Schema({
   verifiedAt: Date,
   shipmentId: { type: mongoose.Schema.Types.ObjectId, ref: 'Shipment' },
   userEmail: String,
-  userName: String
+  userName: String,
+  notes: String
 });
 
 const KYCSubmission = mongoose.model("KYCSubmission", kycSubmissionSchema);
@@ -25,7 +38,7 @@ const KYCSubmission = mongoose.model("KYCSubmission", kycSubmissionSchema);
 export const generateMagicLink = async (req, res) => {
   try {
     const { shipmentId, userEmail, userName } = req.body;
-    
+
     if (!shipmentId || !userEmail) {
       return res.status(400).json({ message: "Shipment ID and user email are required" });
     }
@@ -43,9 +56,7 @@ export const generateMagicLink = async (req, res) => {
       used: false
     });
 
-    const FrontendUrl = 'https://d9c63c6c-d418-4b35-afad-8d6af14cdd4a-00-7zha2surcz85.spock.replit.dev';
-
-    const magicLink = `${FrontendUrl}/kyc-verification/${token}`;
+    const magicLink = `${FRONTEND_URL}/kyc-verification/${token}`;
 
     res.json({
       success: true,
@@ -62,9 +73,14 @@ export const generateMagicLink = async (req, res) => {
 // Generate Cloudinary signature for secure uploads
 export const getCloudinarySignature = async (req, res) => {
   try {
+    // Define values directly in function to avoid scope issues
+    const CLOUDINARY_API_SECRET = 'AVKb7dDnBCcQN6FRTxffiXt9rAY';
+    const CLOUDINARY_CLOUD_NAME = 'dykpxav2z';
+    const CLOUDINARY_API_KEY = '485318534978719';
+
     const { folder = "kyc-verification" } = req.body;
     const timestamp = Math.round(new Date().getTime() / 1000);
-    
+
     // Only include parameters that will be sent to Cloudinary
     const params = {
       folder,
@@ -72,15 +88,15 @@ export const getCloudinarySignature = async (req, res) => {
     };
 
     const signature = cloudinary.v2.utils.api_sign_request(
-      params,
-      process.env.CLOUDINARY_API_SECRET
+      params, 
+      CLOUDINARY_API_SECRET
     );
 
     res.json({
       signature,
       timestamp,
-      cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-      apiKey: process.env.CLOUDINARY_API_KEY,
+      cloudName: CLOUDINARY_CLOUD_NAME,
+      apiKey: CLOUDINARY_API_KEY,
       folder
     });
   } catch (error) {
@@ -178,7 +194,7 @@ export const verifyKYC = async (req, res) => {
 export const getAllKYCSubmissions = async (req, res) => {
   try {
     const { page = 1, limit = 20, status } = req.query;
-    
+
     let query = {};
     if (status === 'pending') query.isVerified = false;
     if (status === 'verified') query.isVerified = true;

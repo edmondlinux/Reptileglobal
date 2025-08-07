@@ -223,7 +223,11 @@ const KYCVerificationForm = () => {
             <div className="group">
               <label className="block text-lg font-semibold text-gray-800 mb-4">
                 Photo of yourself with the reptile
-                <span className="text-red-500 ml-1">*</span>
+                <span className="text-red-500 ml-1">*</span> 
+                <p className="text-gray-600 text-lg leading-relaxed">
+                  Upload a clear and well lit image of yourself holding a reptile e.g. a snake, lizard etc infront of it's enclosure. This is to help us verify that its really you and not someone else.
+                </p>
+                
               </label>
               <div className="relative">
                 <div className="border-2 border-dashed border-gray-200 rounded-2xl p-6 transition-all duration-300 hover:border-emerald-300 hover:bg-emerald-50/30 group-hover:shadow-lg">
