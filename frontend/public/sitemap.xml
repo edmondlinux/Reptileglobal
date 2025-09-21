@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://reptileglobal.site/</loc>
+    <priority>1.0</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://reptileglobal.site/about</loc>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://reptileglobal.site/team</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://reptileglobal.site/testimonials</loc>
+    <priority>0.6</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://reptileglobal.site/contact</loc>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <url>
+    <loc>https://reptileglobal.site/track</loc>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+
+  <!-- Admin dashboard usually not indexed, but can be added if needed -->
+  <!--
+  <url>
+    <loc>https://reptileglobal.site/admin-dashboard</loc>
+    <priority>0.1</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  -->
+
+</urlset>
